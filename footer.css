@@ -2,13 +2,178 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:#141619;
+    color: #bdbdbd;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    
 }
 
+/* main part */
+
+.gravity_part-main{
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 15px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 691px;
+}
+
+.right_G{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.arow{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+
+
+
+
+
+
+
+.contact-section {
+            position: relative;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+
+        .contact-section::before {
+            content: '';
+            position:fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at 20% 50%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+                        radial-gradient(ellipse at 80% 50%, rgba(139, 92, 246, 0.2) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+            /* max-width: 1200px; */
+            /* align-items: center; */
+        }
+
+        .contact-content {
+            /* position: relative; */
+            /* z-index: 1; */
+            text-align: center;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 30px;
+            letter-spacing: -0.02em;
+        }
+
+        .description {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            color: #cbd5e1;
+            margin-bottom: 40px;
+        }
+
+        .gradient-button {
+            padding: 28px 60px;
+            background: linear-gradient(135deg, #7b9ff5 0%, #6ba5e7 25%, #90d4d4 50%, #c4d9a8 75%, #f5d49a 100%);
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(123, 159, 245, 0.3);
+        }
+
+        .gradient-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(123, 159, 245, 0.5);
+        }
+
+        .gradient-button:active {
+            transform: translateY(-1px);
+        }
+
+        .bottom-line {
+            width: 100%;
+            height: 1px;
+            background-color: #bdbdbd;
+            margin-top: 50px;
+            margin-bottom: 130px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .description {
+                font-size: 1rem;
+            }
+
+            .contact-section {
+                padding: 40px 20px;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer part */
 .footer {
     width: 100%;
-    background: #0b0b0b;
+    /* background: #0b0b0b; */
     padding: 60px 0;
-    color: #bdbdbd;
+    
     /* font-family: Arial, sans-serif; (buni uzing quy) */
     padding: 10 40px;
 
@@ -67,5 +232,44 @@
     font-size: 18px;
 }
 .img_footer{
-    height: 155px;
+    height: 170px;
+    width: 200px;
 }
+/*  ovals shapes
+ */
+/* 
+.glow {
+  position: absolute;
+  pointer-events: none;
+  filter: blur(160px);
+}
+
+
+.glow.blue {
+  width: 900px;
+  height: 420px;
+  background: radial-gradient(
+    ellipse at center,
+    rgb(27, 137, 255) 0%,
+    rgba(77, 163, 255, 0.87) 35%,
+    rgba(77, 163, 255, 0.15) 60%,
+    transparent 100%
+  );
+  top: 200px;
+  left: 100px;
+}
+
+
+.glow.yellow {
+  width: 600px;
+  height: 350px;
+  background: radial-gradient(
+    ellipse at center,
+    rgb(0, 111, 238) 0%,
+    rgba(255, 179, 0, 0.979) 40%,
+    rgba(192, 155, 70, 0.205) 65%,
+    transparent 80%
+  );
+  top: 280px;
+  left: 360px;
+} */
