@@ -38,7 +38,7 @@
 }
 
 .footer-links p {
-    font-size: 13px;
+    font-size: 18px;
     margin-bottom: 6px;
     cursor: pointer;
 }
@@ -48,7 +48,7 @@
 }
 
 .policy {
-    font-size: 12px;
+    font-size: 18px;
     margin-top: 20px;
 }
 
@@ -64,5 +64,10 @@
 }
 
 .year {
-    font-size: 12px;
+    font-size: 18px;
+}
+    
+.img_footer{
+   height: 200px;
+   width: 200px;
 }
