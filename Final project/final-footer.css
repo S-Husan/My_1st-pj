@@ -58,7 +58,6 @@
 }
 
 
-
 /* Photo report part */
 
 .photo-report-images {
@@ -82,6 +81,11 @@
 
 .main-photo-report-a {
     display: flex;
+}
+
+.p-inner img{
+    height: 30px;
+    width: 60px;
 }
 
 
